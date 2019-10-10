@@ -1,0 +1,4 @@
+The answer is 8.
+Allocate 13 bits on 8KB page.
+Now we have 16-13=3 bits.
+2^3 = 8.
