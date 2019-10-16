@@ -1,0 +1,2 @@
+To increase hit heat ratio we should to referenct pages in reversed order they were at the start.
+To decrease it, we just can references in same order
