@@ -1,0 +1,19 @@
+cd desktop
+cd OS
+ls
+cd week10
+ls -i ../week1/file.txt
+find -inum 4507517
+cd ../
+cd week1
+find -inum 4507517
+find ../week1/file.txt -inum 4507517
+find ../week1/file.txt -inum 4507517 -exec rm {}\;
+find ../week1/file.txt -inum 4507517 -exec rm {}\
+cd desktop/OS/week10
+find ../week1/file.txt -inum 4507517
+find ../week1/file.txt -inum 
+find ../week1/file.txt -inum 4507517
+find ../week1/file.txt -inum 4507517 -exec rm {}\;
+find ../week1/file.txt -inum 4507517 -exec rm {} \;
+history > ex2.txt

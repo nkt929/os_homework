@@ -1,0 +1,13 @@
+chmod 666 ex3.txt
+chmod u=rwx,o=rwx ex3.txt
+chmod g=u ex3.txt
+660:
+owner is able to read and write
+group members are able read and write
+user isn't able to do anything
+775:
+owner  is able to read, execute and write
+group members are able to ead, execute and write
+user is able to read and execute
+777:
+everyone is able to read, write and execute
