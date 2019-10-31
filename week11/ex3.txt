@@ -1,0 +1,5 @@
+In the first case "Hello Hello" is output
+Second case is just "Hello" 
+This happens beacause we write Hello to buffer and symbols /n clear the buffer
+In first case we fork() program with Hello in buffer
+In second case - without it
